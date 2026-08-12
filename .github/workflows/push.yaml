@@ -44,5 +44,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/hello-golang:v1.0.0
-            ${{ secrets.DOCKERHUB_USERNAME }}/hello-golang:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/hello_golang:v1.0.0
+            ${{ secrets.DOCKERHUB_USERNAME }}/hello_golang:latest
